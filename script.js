@@ -83,7 +83,6 @@ function setProperTooltipPosition() {
   const [top, left] = getDivWindowDistance(tooltipData)
 
   const isValidTop = tooltipHeight + 2 * DISTANCE < top
-  const isValidBottom = window.innerHeight - tooltipHeight + 2 * DISTANCE >= top
   const isValidLeft = tooltipWidth + 2 * DISTANCE < left
   const isValidRight = window.innerWidth - tooltipWidth + 2 * DISTANCE >= left
 
